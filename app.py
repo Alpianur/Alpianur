@@ -25,7 +25,8 @@ def update_output(n_clicks, input_text):
   if n_clicks > 0 and input_text:
      return html.H2(f"Anda mengirim: {input_text}")
   else:
-     return ""
+  return ""
 #menjalankan aplikasi
 if __name__ == '__main__':
    app.run_server(debug=True)
+
